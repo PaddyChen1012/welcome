@@ -1,0 +1,62 @@
+*{
+	font-family: 'Helvetica', sans-serif;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-touch-callout: none;
+	-webkit-text-size-adjust:none;
+}
+body, main, aside, header, footer, marquee, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, button, textarea, p, span, blockquote, th, td, tt{
+	margin:0;
+	padding:0;
+}
+body {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+*:hover,*:focus,*:active{outline: none;-webkit-tap-highlight-color: transparent;}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button,input[type="button"], input[type="text"], input[type="number"], textarea{ 
+	outline:none;
+	font-family: 'Helvetica', sans-serif;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+input::-ms-clear{
+	display: none;
+}
+input::-ms-reveal{
+	display: none;
+}
+fieldset, img {
+	border:0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol, ul {
+	list-style:none;
+}
+caption, th {
+	text-align:left;
+}
+abbr, acronym {
+	border:0;
+}
+
+@media only screen and (min-width: 1024px) {
+	::-webkit-scrollbar{ width:10px;height: 10px; background-color:#f1f1f1;}
+	::-webkit-scrollbar-thumb { background-color:#c1c1c1; border: 3px #f1f1f1 solid; border-radius:10px;cursor:pointer;
+		-webkit-transition:background .5s linear;
+		transition:background .5s linear;
+	} 
+	*:hover::-webkit-scrollbar-thumb{background-color:#a9a9a9;}
+	::-webkit-scrollbar-corner { background-color:#f1f1f1;}
+}
